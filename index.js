@@ -22,37 +22,37 @@ function makesound(mepress)
      switch(mepress)
      {
        case 'f':
-       var tom1=new Audio("sounds/tom-1.mp3");
+       var tom1=new Audio("tom-1.mp3");
        tom1.play();
        break;
 
       case 'a':
-      var tom2=new Audio("sounds/tom-2.mp3");
+      var tom2=new Audio("tom-2.mp3");
       tom2.play();
       break;
 
       case 's':
-      var crash1=new Audio("sounds/crash.mp3");
+      var crash1=new Audio("crash.mp3");
       crash1.play();
       break;
 
       case 'd':
-      var kick1=new Audio("sounds/kick-bass.mp3");
+      var kick1=new Audio("kick-bass.mp3");
       kick1.play();
       break;
 
       case 'j':
-      var tom3=new Audio("sounds/tom-3.mp3");
+      var tom3=new Audio("tom-3.mp3");
       tom3.play();
       break;
 
       case 'k':
-      var tom4=new Audio("sounds/tom-4.mp3");
+      var tom4=new Audio("tom-4.mp3");
       tom4.play();
       break;
 
       case 'l':
-      var snare1=new Audio("sounds/snare.mp3");
+      var snare1=new Audio("snare.mp3");
       snare1.play();
       break;
       default:
