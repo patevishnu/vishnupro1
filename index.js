@@ -22,22 +22,22 @@ function makesound(mepress)
 {
      switch(mepress)
      {
-       case 'f':
+       case 'a':
        var tom1=new Audio("tom-1.mp3");
        tom1.play();
        break;
 
-      case 'a':
+      case 's':
       var tom2=new Audio("tom-2.mp3");
       tom2.play();
       break;
 
-      case 's':
+      case 'd':
       var crash1=new Audio("crash.mp3");
       crash1.play();
       break;
 
-      case 'd':
+      case 'f':
       var kick1=new Audio("kick-bass.mp3");
       kick1.play();
       break;
